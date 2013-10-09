@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AppConfigTest", "AppConfigTest\AppConfigTest.vcxproj", "{95C981AC-846D-43E0-878C-4BD2BF732307}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8D9F805C-79B7-449A-B52D-503DB1FF88C3} = {8D9F805C-79B7-449A-B52D-503DB1FF88C3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AppConfig", "AppConfig\AppConfig.vcxproj", "{8D9F805C-79B7-449A-B52D-503DB1FF88C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95C981AC-846D-43E0-878C-4BD2BF732307}.Debug|Win32.ActiveCfg = Debug|Win32
+		{95C981AC-846D-43E0-878C-4BD2BF732307}.Debug|Win32.Build.0 = Debug|Win32
+		{95C981AC-846D-43E0-878C-4BD2BF732307}.Release|Win32.ActiveCfg = Release|Win32
+		{95C981AC-846D-43E0-878C-4BD2BF732307}.Release|Win32.Build.0 = Release|Win32
+		{8D9F805C-79B7-449A-B52D-503DB1FF88C3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8D9F805C-79B7-449A-B52D-503DB1FF88C3}.Debug|Win32.Build.0 = Debug|Win32
+		{8D9F805C-79B7-449A-B52D-503DB1FF88C3}.Release|Win32.ActiveCfg = Release|Win32
+		{8D9F805C-79B7-449A-B52D-503DB1FF88C3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
